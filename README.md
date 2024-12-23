@@ -20,7 +20,7 @@
 RISC Zero is a zero-knowledge verifiable general computing platform based on
 [zk-STARKs][zk-proof] and the [RISC-V] microarchitecture.
 
-A [zero knowledge proof][zk-proof] allows one party (the prover) to convince
+A [zero-knowledge proof][zk-proof] allows one party (the prover) to convince
 another party (the verifier) that something is true without revealing all the
 details. In the case of RISC Zero, the prover can show they correctly executed
 some code (known to both parties), while only revealing to the verifier the
@@ -70,7 +70,7 @@ This code implements a [three-layer recursive proof system][zksummit10-talk],
 based on the well-studied zk-STARK protocol and Groth16 protocol. An overview of
 the underlying cryptographic assumptions can be found on our [Security
 Model][security-model] page. With default parameters, this system achieves
-perfect zero-knowledgeness and 98 bits of conjectured security. Our STARK
+perfect zero-knowledged and 98 bits of conjectured security. Our STARK
 protocol is described in [Scalable, Transparent Arguments of RISC-V
 Integrity][proof-system-in-detail], and a soundness/security calculator is
 included in the `soundness.rs` file.
